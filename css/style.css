@@ -81,7 +81,7 @@ nav button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin: 30px 0px;
 }
 .parent h1{
     color: #25a2c3;
@@ -105,4 +105,36 @@ nav button:hover{
     height: 100%;
     border-radius: 100%;
     padding: 0px 50px;
+}
+#testimony{
+    background-color: #f6755e;
+    color: white;
+}
+#testimony .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 0px;
+    flex-direction: column;
+}
+#testimony h2{
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+#testimony p{
+    color: #fcdcd6;
+    line-height: 30px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+#testimony .name{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+#testimony .title{
+    font-size: 13px;
+    color: #fcdcd6;
 }
