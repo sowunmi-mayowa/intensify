@@ -37,9 +37,26 @@ nav button{
     color: #7d8083;
     text-transform: uppercase;
     font-weight: 800;
+    cursor: pointer;
 }
 nav button:hover{
     background-color: #dee1e356;
+}
+.mobile-nav{
+    background-color: #25a2c3;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100vh;
+    transition: all .5s ease-in;
+}
+.mobile-nav li{
+    list-style: none;
+    text-align: center;
+    font-size: 25px;
+    margin: 30px 0;
 }
 .content{
     background: url('../images/banner.jpg');
@@ -262,6 +279,9 @@ nav button:hover{
 @media(max-width: 320px){
     .content{
         padding: 20px;
+    }
+    .content h1{
+        font-size: 30px;
     }
    
 }
