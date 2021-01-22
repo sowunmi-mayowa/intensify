@@ -58,6 +58,21 @@ nav button:hover{
     font-size: 25px;
     margin: 30px 0;
 }
+.mobile-nav button{
+    width: 80%;
+    margin: 20px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    background-color: #f6755e;
+    border: none;
+    border-radius: 5px;
+    visibility: hidden;
+}
+.mobile-nav button:focus{
+    outline: none;
+}
 .content{
     background: url('../images/banner.jpg');
     background-size: cover;
@@ -259,6 +274,9 @@ nav button:hover{
 @media(max-width: 375px){
     nav button{
         display: none;
+    }
+    .mobile-nav button{
+        visibility: visible;
     }
     .content{
         height: 400px;
